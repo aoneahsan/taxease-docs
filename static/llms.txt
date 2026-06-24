@@ -1,0 +1,34 @@
+# TaxEase
+
+> TaxEase is a cross-platform (web, Android, iOS) tax and professional-services
+> platform. It bundles 60+ free, browser-based tax and finance calculators,
+> legal/business document generators, and a service-request workflow for
+> professional-services firms (intake, document handling, status tracking).
+> All calculators run client-side and are for informational purposes only —
+> not tax, legal, or financial advice. Built by Ahsan Mahmood.
+
+## Key links
+- App: https://taxease.aoneahsan.com
+- Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.taxease
+- Documentation: https://taxease-docs.aoneahsan.com
+- Author: https://aoneahsan.com
+
+## Documentation
+- Introduction: https://taxease-docs.aoneahsan.com/
+- Quick Start: https://taxease-docs.aoneahsan.com/getting-started/quick-start
+- Accounts & sync: https://taxease-docs.aoneahsan.com/getting-started/accounts
+- FAQ: https://taxease-docs.aoneahsan.com/faq
+
+## Tools (client-side, free)
+- Tools overview: https://taxease-docs.aoneahsan.com/tools/overview
+- Tax calculators (income, refund, 1099, payroll, quarterly, self-employment, capital gains, estate, social security, medicare, property, sales, bonus, crypto, W-4): https://taxease-docs.aoneahsan.com/tools/tax-calculators
+- Personal finance (mortgage, loan, auto loan, compound interest, retirement, savings goal, budget, debt payoff, credit-card payoff, net worth): https://taxease-docs.aoneahsan.com/tools/personal-finance
+- Business calculators (break-even, business loan, ROI, profit margin, cash flow, startup cost, valuation, franchise fee, inventory turnover, operating expense): https://taxease-docs.aoneahsan.com/tools/business-calculators
+- Compliance tools (tax bracket, tax deadlines, mileage, home-office, charitable deduction): https://taxease-docs.aoneahsan.com/tools/compliance-tools
+- Document generators (NDA, LLC operating agreement, bill of sale, invoice, receipt, employment contract, lease agreement, power of attorney, business plan, generic contract): https://taxease-docs.aoneahsan.com/tools/document-generators
+
+## Features
+- Service requests: https://taxease-docs.aoneahsan.com/features/service-requests
+- Documents (FilesHub): https://taxease-docs.aoneahsan.com/features/documents
+- Dashboard: https://taxease-docs.aoneahsan.com/features/dashboard
+- Browser extension: https://taxease-docs.aoneahsan.com/features/browser-extension

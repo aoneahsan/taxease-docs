@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TaxEase Documentation">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0f172a" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(96 150)">
+    <rect width="96" height="96" rx="20" fill="#2563eb"/>
+    <path d="M24 28h48" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M48 28v44" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M58 56l7 7 12-14" stroke="#bfdbfe" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="96" y="360" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="78" font-weight="800" fill="#ffffff">TaxEase Docs</text>
+  <text x="96" y="430" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="34" font-weight="500" fill="#93c5fd">Tax &amp; finance calculators, document generators,</text>
+  <text x="96" y="476" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="34" font-weight="500" fill="#93c5fd">and a professional service-request workflow.</text>
+  <text x="96" y="566" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="28" font-weight="400" fill="#64748b">taxease-docs.aoneahsan.com — by Ahsan Mahmood</text>
+</svg>

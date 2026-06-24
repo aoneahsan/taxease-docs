@@ -1,0 +1,61 @@
+{
+  "name": "taxease-docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public documentation site for TaxEase — a tax & professional-services platform with 60+ finance/tax calculators, document generators, and a service-request workflow. Built with Docusaurus, dual-hosted on Firebase Hosting and GitHub Pages.",
+  "author": {
+    "name": "Ahsan Mahmood",
+    "email": "aoneahsan@gmail.com",
+    "url": "https://aoneahsan.com"
+  },
+  "license": "MIT",
+  "homepage": "https://taxease.aoneahsan.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoneahsan/taxease-docs.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start --port 5992 --host 0.0.0.0",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve --port 5993",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc --noEmit",
+    "firebase:deploy": "yarn build && npx -y firebase-tools@latest deploy --only hosting --project taxease-docs"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.1",
+    "@docusaurus/preset-classic": "^3.10.1",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^3.10.1",
+    "@docusaurus/tsconfig": "^3.10.1",
+    "@docusaurus/types": "^3.10.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "~5.6.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  }
+}

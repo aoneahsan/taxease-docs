@@ -1,0 +1,29 @@
+# Dependencies
+/node_modules
+
+# Yarn 4 (PnP) — keep yarn.lock, ignore the generated runtime + cache
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Docusaurus build output + cache
+/build
+/.docusaurus
+
+# Local env (this is a PUBLIC repo — never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Misc
+.DS_Store
+.cache-loader
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+firebase-debug.log*
+.firebase/

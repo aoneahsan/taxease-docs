@@ -1,0 +1,57 @@
+# ──────────────────────────────────────────────────────────────────────────
+# GitHub Pages deploy for the TaxEase docs site.
+#
+# Builds the Docusaurus site and publishes /build to GitHub Pages.
+# Custom domain is set via static/CNAME (taxease-docs.aoneahsan.com) — Docusaurus
+# copies it into /build, so Pages keeps the custom domain on each deploy.
+#
+# DUAL HOSTING: this repo is ALSO deployable to Firebase Hosting
+# (`yarn firebase:deploy`, project taxease-docs). DNS for the custom domain can
+# point at EITHER host — pick one as the live target. Deploy is USER-ONLY.
+#
+# Enable: repo Settings → Pages → Build and deployment → Source = "GitHub Actions".
+# ──────────────────────────────────────────────────────────────────────────
+name: Deploy docs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Enable Corepack (Yarn)
+        run: corepack enable
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Build
+        run: yarn build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,37 @@
+{
+  "$schema": "taxease-docs-seo-content-tracker",
+  "description": "Per-page rich SEO/AEO content enrichment progress for the TaxEase docs site. Resumable across sessions per ~/.claude/rules/seo-aeo-ranking.md.",
+  "site": "https://taxease-docs.aoneahsan.com",
+  "totalPages": 16,
+  "enrichedPages": 16,
+  "remainingPages": 0,
+  "lastUpdated": "2026-06-24",
+  "batchSize": 15,
+  "wordsPerPageMin": 400,
+  "wordsPerPageTarget": "400-900",
+  "expert": "Ahsan Mahmood",
+  "currentSession": "Initial scaffold — all 16 pages authored with definition-first intros, tables, and FAQ blocks on tools/FAQ pages.",
+  "categoryStrategy": "Future long-tail batches: create one rich page per individual calculator/document generator (60+ pages) using the per-page-uniqueness floor (definition-first intro, use cases, how-it-works, examples, FAQ, tips).",
+  "categoryProgress": {
+    "core": { "total": 4, "enriched": 4, "remaining": 0 },
+    "features": { "total": 4, "enriched": 4, "remaining": 0 },
+    "tools-index": { "total": 6, "enriched": 6, "remaining": 0 },
+    "meta": { "total": 2, "enriched": 2, "remaining": 0 }
+  },
+  "batches": [
+    {
+      "id": "batch-00",
+      "date": "2026-06-24",
+      "status": "complete",
+      "category": "scaffold",
+      "pages": ["intro", "getting-started/installation", "getting-started/quick-start", "getting-started/accounts", "features/service-requests", "features/documents", "features/dashboard", "features/browser-extension", "tools/overview", "tools/tax-calculators", "tools/personal-finance", "tools/business-calculators", "tools/compliance-tools", "tools/document-generators", "faq", "about-the-author"],
+      "notes": "All pages documented from the real TaxEase app. Honest framing on accuracy + legal disclaimers. AI-bot allowlist + llms.txt + JSON-LD in place."
+    }
+  ],
+  "nextBatchSuggestion": {
+    "id": "batch-01",
+    "category": "per-tool deep pages",
+    "rationale": "Highest long-tail SEO leverage: one dedicated 1000-word page per calculator (e.g. /tools/tax/self-employment-tax) with use cases, worked examples, and FAQ.",
+    "verifyBeforeUse": "Confirm each tool slug against the live app at https://taxease.aoneahsan.com/tools."
+  }
+}
