@@ -10,6 +10,11 @@ Public documentation site for **TaxEase** (app at https://taxease.aoneahsan.com)
 
 `github.com/aoneahsan/taxease-docs` is **PUBLIC**. NEVER commit `.env`, keys, or service accounts. Docs content only. `.env*` stays git-ignored.
 
+## Gitignore Hygiene (IRON-SOLID)
+`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo (`github.com/aoneahsan/taxease-docs`, remote `o`) -> NEVER commit secrets (`.env*` stays git-ignored); gitignore hygiene only.
+Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
+Gitignore Last Verified: 2026-06-24
+
 ## Conventions
 
 - `routeBasePath: '/'`; `intro.md` has `slug: /` (homepage). Navigation in `sidebars.ts`.

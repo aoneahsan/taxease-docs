@@ -27,3 +27,7 @@ yarn-error.log*
 *.log
 firebase-debug.log*
 .firebase/
+
+# Custom (Ahsan standard)
+*.ignore.*
+project-record-ignore/
