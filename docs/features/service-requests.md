@@ -15,7 +15,7 @@ keywords: [service request, professional services, intake, status tracking]
 
 1. **Choose a service.** From the Services area, pick the service you need. Each service has its own intake form tailored to what that task requires.
 2. **Complete the multi-step form.** Forms are broken into logical steps with validation, so you only move forward once each step is complete.
-3. **Attach documents.** Upload any supporting files; they are stored securely (see [Documents](/features/documents)).
+3. **Attach documents.** Upload any supporting files; they are stored through FilesHub and stay attached to the request (see [Documents](/features/documents)).
 4. **Submit.** The request is created and enters the tracking pipeline.
 5. **Track status.** Follow the request from submission through review, in-progress, and completion on your [dashboard](/features/dashboard).
 
@@ -25,7 +25,7 @@ A request moves through stages such as submitted, under review, in progress, awa
 
 ## Communication
 
-Each request keeps its related messages and documents together, so the full context of a task lives in one place rather than scattered across email threads.
+Every request has its own message thread. Open it from the request and write to the team handling it; their replies land in the same thread, and both sides see the conversation in real time. Messages and documents stay attached to the request, so the full context of a task lives in one place rather than scattered across email threads.
 
 ## Good to know
 

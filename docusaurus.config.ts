@@ -24,17 +24,23 @@ const config: Config = {
   organizationName: 'aoneahsan',
   projectName: 'taxease-docs',
 
-  onBrokenLinks: 'warn',
-  onBrokenAnchors: 'warn',
+  // 'throw' on purpose: the build IS the link checker for this site.
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
+
+  future: {
+    v4: true,
+    faster: true,
+  },
 
   // SEO + AI-citability head tags. JSON-LD (WebSite, Organization,
   // SoftwareApplication) helps Google Rich Results, Perplexity, ChatGPT,
   // and Claude extract structured entity data when citing these docs.
+  // NOTE: no `rel=canonical` here. headTags are injected into EVERY page, so a
+  // hardcoded canonical made all 16 pages declare themselves duplicates of the
+  // homepage — on top of the correct per-page canonical Docusaurus already
+  // emits. Two conflicting canonicals is worse than none. Docusaurus handles it.
   headTags: [
-    {
-      tagName: 'link',
-      attributes: { rel: 'canonical', href: `${SITE_URL}/` },
-    },
     {
       tagName: 'meta',
       attributes: { name: 'application-name', content: 'TaxEase Docs' },
@@ -56,7 +62,7 @@ const config: Config = {
         name: 'TaxEase Documentation',
         url: SITE_URL,
         description:
-          'Documentation for TaxEase — a tax and professional-services platform offering 60+ finance and tax calculators, legal document generators, and a service-request workflow. Author: Ahsan Mahmood.',
+          'Documentation for TaxEase — a tax and professional-services platform offering a 50-tool finance and tax calculator directory, legal document generators, and a service-request workflow. Author: Ahsan Mahmood.',
         inLanguage: 'en',
         publisher: {
           '@type': 'Person',
@@ -80,13 +86,13 @@ const config: Config = {
         '@type': 'SoftwareApplication',
         name: 'TaxEase',
         applicationCategory: 'FinanceApplication',
-        operatingSystem: 'Android, iOS, Web',
+        operatingSystem: 'Android, Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         url: APP_URL,
         sameAs: [PLAY_URL, 'https://github.com/aoneahsan'],
         author: { '@type': 'Person', name: 'Ahsan Mahmood', url: 'https://aoneahsan.com' },
         description:
-          'TaxEase is a cross-platform tax and professional-services app: 60+ tax/finance calculators, legal document generators, and a service-request workflow with document handling and status tracking.',
+          'TaxEase is a tax and professional-services app for web and Android: a 50-tool tax/finance calculator directory (37 hosted in TaxEase, 13 on ZTools), legal document generators, and a service-request workflow with document handling and status tracking.',
       }),
     },
     {
@@ -115,8 +121,28 @@ const config: Config = {
   trailingSlash: false,
 
   markdown: {
-    hooks: { onBrokenMarkdownLinks: 'warn' },
+    hooks: { onBrokenMarkdownLinks: 'throw' },
   },
+
+  // Offline/local search — no external service, indexed at build time.
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+        // Docs are served at the site root (see presets.docs.routeBasePath).
+        docsRouteBasePath: '/',
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 12,
+        searchResultContextMaxLength: 60,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -128,6 +154,18 @@ const config: Config = {
           editUrl: 'https://github.com/aoneahsan/taxease-docs/edit/main/',
           showLastUpdateTime: true,
           breadcrumbs: true,
+          // `docs/` doubles as this repo's own docs folder, so it holds two
+          // maintainer-only files that must NOT become public pages (they were
+          // being published AND listed in sitemap.xml). Keeping the Docusaurus
+          // defaults, then excluding those.
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            'MANUAL-TASKS.md',
+            'tracking/**',
+          ],
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
@@ -139,7 +177,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/social-card.svg',
     metadata: [
-      { name: 'description', content: 'Documentation for TaxEase — 60+ tax/finance calculators, legal document generators, and a professional service-request workflow. Maintained by Ahsan Mahmood.' },
+      { name: 'description', content: 'Documentation for TaxEase — a 50-tool tax/finance calculator directory, legal document generators, and a professional service-request workflow. Maintained by Ahsan Mahmood.' },
       { name: 'keywords', content: 'taxease, tax calculator, finance calculator, document generator, NDA generator, lease agreement, mortgage calculator, payroll tax, self-employment tax, service request platform, capacitor app, react' },
       { name: 'author', content: 'Ahsan Mahmood' },
       { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },

@@ -1,7 +1,7 @@
 ---
 id: tax-calculators
 title: Tax Calculators
-description: 15 free U.S. tax calculators in TaxEase — income tax, refund, self-employment, payroll, capital gains, estate, and more.
+description: The 15 free U.S. tax calculators in the TaxEase directory — income tax, refund, self-employment, payroll, capital gains, estate, and more. 14 run in TaxEase, 1 on ZTools.
 sidebar_label: Tax Calculators
 sidebar_position: 2
 keywords: [tax calculator, income tax, tax refund, self-employment tax, payroll tax, capital gains tax]
@@ -9,7 +9,9 @@ keywords: [tax calculator, income tax, tax refund, self-employment tax, payroll 
 
 # Tax Calculators
 
-**TaxEase includes 15 U.S. tax calculators** covering the most common federal tax estimates. All use published 2024 brackets and rates and run in your browser. They are estimates for informational purposes only and are not tax advice — confirm with a tax professional.
+**The tax category lists 15 U.S. tax calculators** covering the most common federal tax estimates. All use published 2024 brackets and rates and run in your browser. They are estimates for informational purposes only and are not tax advice — confirm with a tax professional.
+
+14 of them run inside TaxEase; **Income Tax** now opens on [ZTools](https://ztools.zaions.com) (same developer, also free — the link below redirects there).
 
 | Calculator | What it estimates | Open |
 |---|---|---|

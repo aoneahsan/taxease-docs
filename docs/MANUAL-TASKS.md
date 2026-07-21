@@ -1,11 +1,16 @@
 # Manual / User-Only Tasks — TaxEase Docs
 > The ONE place for everything only you (the human) can do. Fixed path: docs/MANUAL-TASKS.md.
-> Global spec: ~/.claude/rules/manual-tasks.md.   Last updated: 2026-06-24
+> Excluded from the published site (see `docusaurus.config.ts` → `docs.exclude`) — maintainer-only.
+> Global spec: ~/.claude/rules/manual-tasks.md.   Last updated: 2026-07-21
 
 ## ⏳ Pending manual tasks
 | # | Task | Why only you | Detailed runbook | Status |
 |---|------|--------------|------------------|--------|
-| 1 | Commit + push the .gitignore hygiene edits (`.gitignore` custom rules + `## Gitignore Hygiene` block in CLAUDE.md/AGENTS.md + this file) | Fleet hygiene pass ran in NO-COMMIT mode (orchestrator's premise was "no git repo"), but this is a live PUBLIC repo (`github.com/aoneahsan/taxease-docs`, remote `o`). Edits left uncommitted by design — commit/push when ready. | `git add .gitignore CLAUDE.md AGENTS.md docs/MANUAL-TASKS.md && git commit && git push o main` | ☐ Not started |
+| 1 | Enable GitHub Pages for `aoneahsan/taxease-docs` | Repo setting; the deploy workflow cannot run until Pages is switched on | Settings → Pages → Build and deployment → Source = **GitHub Actions**. `.github/workflows/deploy-pages.yml` then deploys on every push to `main`. | ☐ Not started |
+| 2 | Add the DNS record for `taxease-docs.aoneahsan.com` | Registrar/DNS access | `CNAME  taxease-docs  →  aoneahsan.github.io`. `static/CNAME` already carries the domain, so Pages keeps it on each deploy. Then set the custom domain in Settings → Pages and enable Enforce HTTPS. | ☐ Not started |
+| 3 | Submit the site to search engines once it is live | Console accounts | Google Search Console + Bing Webmaster Tools → verify domain → submit `https://taxease-docs.aoneahsan.com/sitemap.xml`. | ☐ Not started |
 
 ## ✅ Completed manual tasks
-(move rows here with the date once done)
+| # | Task | Completed |
+|---|------|-----------|
+| — | Commit + push the `.gitignore` hygiene edits | 2026-07-16 (commit `30c15fa`) |

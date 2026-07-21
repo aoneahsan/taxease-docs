@@ -11,7 +11,7 @@ keywords: [taxease faq, is taxease free, taxease privacy, taxease platforms]
 
 ## What is TaxEase?
 
-TaxEase is a cross-platform tax and professional-services app. It offers 60+ free tax and finance calculators, legal/business document generators, and a service-request workflow for professional-services firms, available on the web, Android, and iOS.
+TaxEase is a tax and professional-services app for the web and Android. It offers a 50-tool directory of free tax and finance calculators (37 hosted in TaxEase, 13 on the sibling site [ZTools](https://ztools.zaions.com)), legal/business document generators, and a service-request workflow for professional-services firms.
 
 ## Is TaxEase free to use?
 
@@ -27,7 +27,7 @@ Calculator inputs are processed in your browser and are not sent to a server to 
 
 ## Which platforms are supported?
 
-The web app runs in any modern browser. Native apps are available for Android (on Google Play) and iOS (Capacitor build). A companion browser extension captures receipts for expense tracking.
+Web and Android (iOS is not currently offered). The web app runs in any modern browser, and the native Android app is on Google Play. A companion browser extension captures receipts for expense tracking.
 
 ## How accurate are the calculators?
 

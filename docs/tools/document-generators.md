@@ -1,7 +1,7 @@
 ---
 id: document-generators
 title: Document Generators
-description: 10 free legal and business document generators in TaxEase — NDA, contracts, lease, employment agreement, invoice, and more.
+description: The 10 free legal and business document generators in the TaxEase directory — NDA, contracts, lease, employment agreement, invoice, and more. 4 run in TaxEase, 6 on ZTools.
 sidebar_label: Document Generators
 sidebar_position: 6
 keywords: [nda generator, contract generator, lease agreement, employment contract, power of attorney, invoice generator]
@@ -9,20 +9,24 @@ keywords: [nda generator, contract generator, lease agreement, employment contra
 
 # Document Generators
 
-**TaxEase includes 10 document generators** that turn a short form into a formatted, print-ready document. Each produces a strong starting template — always have legal documents reviewed by a qualified attorney before use, as requirements vary by jurisdiction.
+**The document-generator category lists 10 generators** that turn a short form into a formatted, print-ready document. Each produces a strong starting template — always have legal documents reviewed by a qualified attorney before use, as requirements vary by jurisdiction.
 
-| Generator | What it produces | Open |
+4 of them run inside TaxEase (bill of sale, LLC operating agreement, power of attorney, business plan). **NDA, Contract, Employment Contract, Lease Agreement, Invoice, and Receipt now open on [ZTools](https://ztools.zaions.com)** — same developer, also free; the links below redirect there.
+
+Worth knowing before you click: the NDA, Contract, Employment Contract, and Lease Agreement entries **all redirect to one general contract-template generator on ZTools**, not to four separate purpose-built forms. It covers those agreement types from a single form; expect to adapt the wording yourself.
+
+| Generator | What it produces | Where it opens |
 |---|---|---|
-| NDA Generator | Mutual or unilateral non-disclosure agreement | [Open](https://taxease.aoneahsan.com/tools/document-generators/nda-generator) |
-| LLC Operating Agreement | Operating agreement for a limited liability company | [Open](https://taxease.aoneahsan.com/tools/document-generators/llc-agreement) |
-| Bill of Sale | Bill of sale for transferring ownership of goods | [Open](https://taxease.aoneahsan.com/tools/document-generators/bill-of-sale) |
-| Invoice Generator | Professional invoice with line items and totals | [Open](https://taxease.aoneahsan.com/tools/document-generators/invoice-generator) |
-| Receipt Generator | Payment receipt | [Open](https://taxease.aoneahsan.com/tools/document-generators/receipt-generator) |
-| Employment Contract | Employment agreement covering role, pay, and standard terms | [Open](https://taxease.aoneahsan.com/tools/document-generators/employment-contract) |
-| Lease Agreement | Residential lease — term, rent, deposit, and tenancy terms | [Open](https://taxease.aoneahsan.com/tools/document-generators/lease-agreement) |
-| Power of Attorney | General, limited, or durable power of attorney | [Open](https://taxease.aoneahsan.com/tools/document-generators/power-of-attorney) |
-| Business Plan | Structured business plan with the standard sections | [Open](https://taxease.aoneahsan.com/tools/document-generators/business-plan) |
-| Contract Generator | General service, consulting, freelance, or sales agreement | [Open](https://taxease.aoneahsan.com/tools/document-generators/contract-generator) |
+| NDA Generator | Non-disclosure terms, via the general contract template | [ZTools](https://taxease.aoneahsan.com/tools/document-generators/nda) |
+| LLC Operating Agreement | Operating agreement for a limited liability company | [TaxEase](https://taxease.aoneahsan.com/tools/document-generators/llc-agreement) |
+| Bill of Sale | Bill of sale for transferring ownership of goods | [TaxEase](https://taxease.aoneahsan.com/tools/document-generators/bill-of-sale) |
+| Invoice Generator | Professional invoice with line items and totals | [ZTools](https://taxease.aoneahsan.com/tools/document-generators/invoice) |
+| Receipt Generator | Payment receipt | [ZTools](https://taxease.aoneahsan.com/tools/document-generators/receipt) |
+| Employment Contract | Employment terms, via the general contract template | [ZTools](https://taxease.aoneahsan.com/tools/document-generators/employment-contract) |
+| Lease Agreement | Tenancy terms, via the general contract template | [ZTools](https://taxease.aoneahsan.com/tools/document-generators/lease-agreement) |
+| Power of Attorney | General, limited, or durable power of attorney | [TaxEase](https://taxease.aoneahsan.com/tools/document-generators/power-of-attorney) |
+| Business Plan | Structured business plan with the standard sections | [TaxEase](https://taxease.aoneahsan.com/tools/document-generators/business-plan) |
+| Contract Generator | General service, consulting, freelance, or sales agreement | [ZTools](https://taxease.aoneahsan.com/tools/document-generators/contract-generator) |
 
 ## How to use a generator
 

@@ -9,15 +9,15 @@ keywords: [tax bracket calculator, tax deadlines, mileage deduction, home office
 
 # Compliance Tools
 
-**TaxEase includes 5 compliance tools** to help with deductions and deadlines. All run in your browser. Estimates only — not tax advice.
+**TaxEase includes 5 compliance tools** to help with deductions and deadlines. All five run inside TaxEase, in your browser. Estimates only — not tax advice.
 
 | Tool | What it does | Open |
 |---|---|---|
-| Tax Bracket Calculator | Shows your marginal and effective federal tax bracket | [Open](https://taxease.aoneahsan.com/tools/compliance-tools/tax-bracket-calculator) |
-| Tax Deadline Calendar | Key federal filing and payment deadlines | [Open](https://taxease.aoneahsan.com/tools/compliance-tools/tax-deadline-calendar) |
-| Mileage Deduction | Deduction from business, medical, and charitable miles at IRS rates | [Open](https://taxease.aoneahsan.com/tools/compliance-tools/mileage-deduction) |
-| Home Office Deduction | Deductible home-expense portion for a qualifying home office (regular method) | [Open](https://taxease.aoneahsan.com/tools/compliance-tools/home-office-deduction) |
-| Charitable Deduction | Estimated deduction for cash, property, or vehicle donations | [Open](https://taxease.aoneahsan.com/tools/compliance-tools/charitable-deduction) |
+| Tax Bracket Calculator | Shows your marginal and effective federal tax bracket | [Open](https://taxease.aoneahsan.com/tools/compliance/tax-brackets) |
+| Tax Deadline Calendar | Key federal filing and payment deadlines | [Open](https://taxease.aoneahsan.com/tools/compliance/tax-deadlines) |
+| Mileage Deduction | Deduction from business, medical, and charitable miles at IRS rates | [Open](https://taxease.aoneahsan.com/tools/compliance/mileage-deduction) |
+| Home Office Deduction | Deductible home-expense portion for a qualifying home office (regular method) | [Open](https://taxease.aoneahsan.com/tools/compliance/home-office-deduction) |
+| Charitable Deduction | Estimated deduction for cash, property, or vehicle donations | [Open](https://taxease.aoneahsan.com/tools/compliance/charitable-deduction) |
 
 ## Frequently asked questions
 

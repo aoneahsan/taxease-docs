@@ -13,7 +13,12 @@ keywords: [document upload, fileshub, document management, attachments]
 
 ## Uploading
 
-When a form or request needs a file, use its upload field. The field tells you, before you pick a file, what it is for and which file types and sizes are accepted, so you do not have to guess. Drag-and-drop is supported on the web.
+When a form or request needs a file, use its upload field. Drag-and-drop is supported on the web. Every upload is checked against one policy before it is stored:
+
+- **Maximum size:** 10 MB per file.
+- **Accepted types:** PDF, Word (`.doc`, `.docx`), Excel (`.xls`, `.xlsx`), images (JPEG, PNG, GIF, WebP), and ZIP/RAR archives.
+
+A file outside those limits is rejected with a message naming the reason, and nothing is stored.
 
 ## Where files live
 

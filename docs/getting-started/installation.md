@@ -1,10 +1,10 @@
 ---
 id: installation
 title: Installing TaxEase
-description: How to access TaxEase on the web, install the Android and iOS apps, and add the browser extension.
+description: How to access TaxEase on the web, install the Android app, and add the browser extension.
 sidebar_label: Installation
 sidebar_position: 1
-keywords: [taxease install, taxease android, taxease ios, taxease web app]
+keywords: [taxease install, taxease android, taxease web app, taxease browser extension]
 ---
 
 # Installing TaxEase
@@ -21,11 +21,11 @@ Install from Google Play:
 
 - **[TaxEase on Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.taxease)** (package `com.aoneahsan.taxease`)
 
-The Android app is built with Capacitor and wraps the same app you get on the web, plus native features (push notifications, share sheet, biometric-friendly sign-in, and edge-to-edge display).
+The Android app is built with Capacitor and wraps the same app you get on the web, plus native features: push notifications, the OS share sheet, home-screen shortcuts, deep links, a privacy screen that hides content in the app switcher, and edge-to-edge display.
 
 ## iOS
 
-The iOS build is produced from the same Capacitor codebase. When the App Store listing is live it will be linked here and from the marketing site.
+TaxEase is available on the web and Android. **iOS is not currently offered.**
 
 ## Browser extension
 
@@ -37,6 +37,5 @@ A companion browser extension lets you capture receipts and expenses from online
 |---|---|
 | Web | Any current Chrome, Edge, Firefox, or Safari |
 | Android | Android 8.0 (API 26) or newer |
-| iOS | iOS 14 or newer (when published) |
 
 Continue to the [Quick Start](/getting-started/quick-start).

@@ -1,9 +1,11 @@
 # TaxEase
 
-> TaxEase is a cross-platform (web, Android, iOS) tax and professional-services
-> platform. It bundles 60+ free, browser-based tax and finance calculators,
-> legal/business document generators, and a service-request workflow for
-> professional-services firms (intake, document handling, status tracking).
+> TaxEase is a tax and professional-services platform for web and Android
+> (iOS is not currently offered). It bundles a 50-tool directory of free,
+> browser-based tax and finance calculators — 37 hosted in TaxEase and 13 on
+> the sibling site ZTools (https://ztools.zaions.com) — plus legal/business
+> document generators and a service-request workflow for professional-services
+> firms (intake, document handling, messaging, status tracking).
 > All calculators run client-side and are for informational purposes only —
 > not tax, legal, or financial advice. Built by Ahsan Mahmood.
 

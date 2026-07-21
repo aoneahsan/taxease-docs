@@ -1,7 +1,7 @@
 ---
 id: intro
 title: TaxEase Documentation
-description: TaxEase is a cross-platform tax and professional-services app with 60+ free calculators, document generators, and a service-request workflow.
+description: TaxEase is a tax and professional-services app for web and Android with a 50-tool free calculator directory, document generators, and a service-request workflow.
 slug: /
 sidebar_label: Introduction
 sidebar_position: 1
@@ -10,7 +10,9 @@ keywords: [taxease, tax calculator, finance calculator, document generator, serv
 
 # TaxEase Documentation
 
-**TaxEase is a cross-platform tax and professional-services application** that combines three things in one place: a suite of 60+ free, browser-based tax and finance calculators, a set of legal and business document generators, and a service-request workflow for professional-services firms. It runs on the web, Android, and iOS, and is built with React 19, TanStack Router, Firebase, and Capacitor.
+**TaxEase is a tax and professional-services application** that combines three things in one place: a 50-tool directory of free, browser-based tax and finance calculators, a set of legal and business document generators, and a service-request workflow for professional-services firms. It runs on **the web and Android (iOS is not currently offered)**, and is built with React 19, TanStack Router, Firebase, and Capacitor.
+
+Of the 50 tools, **37 run inside TaxEase and 13 open on [ZTools](https://ztools.zaions.com)** — a sibling site by the same developer, also free and account-free. Both are listed together in the app's Tools directory, and the older in-app URLs of the migrated tools redirect to their ZTools pages.
 
 These docs explain what TaxEase does, how to use each area, and what every tool calculates — written so a human, a search engine, and an AI assistant can all find the right answer quickly.
 
@@ -19,7 +21,7 @@ These docs explain what TaxEase does, how to use each area, and what every tool 
 - **Run free calculators** — estimate income tax, refunds, self-employment and payroll tax, mortgage and loan payments, retirement savings, business break-even, and more. Every calculator runs in your browser; no data is sent to a server to compute a result.
 - **Generate documents** — produce print-ready NDAs, contracts, leases, employment agreements, powers of attorney, invoices, and business plans from simple forms.
 - **Request professional services** — submit a structured service request (for example, a tax-registration or compliance task), attach documents, and track its status.
-- **Use it anywhere** — the same account and tools work on the web app and the native Android/iOS apps, plus a companion browser extension for capturing receipts.
+- **Use it anywhere** — the same account and tools work on the web app and the native Android app, plus a companion browser extension for capturing receipts.
 
 ## Quick links
 

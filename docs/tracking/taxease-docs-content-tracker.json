@@ -11,7 +11,7 @@
   "wordsPerPageTarget": "400-900",
   "expert": "Ahsan Mahmood",
   "currentSession": "Initial scaffold — all 16 pages authored with definition-first intros, tables, and FAQ blocks on tools/FAQ pages.",
-  "categoryStrategy": "Future long-tail batches: create one rich page per individual calculator/document generator (60+ pages) using the per-page-uniqueness floor (definition-first intro, use cases, how-it-works, examples, FAQ, tips).",
+  "categoryStrategy": "Future long-tail batches: create one rich page per individual calculator/document generator using the per-page-uniqueness floor (definition-first intro, use cases, how-it-works, examples, FAQ, tips). Scope is the 37 tools hosted in TaxEase — the other 13 belong to ZTools and are documented on that site, not here.",
   "categoryProgress": {
     "core": { "total": 4, "enriched": 4, "remaining": 0 },
     "features": { "total": 4, "enriched": 4, "remaining": 0 },
@@ -32,6 +32,16 @@
     "id": "batch-01",
     "category": "per-tool deep pages",
     "rationale": "Highest long-tail SEO leverage: one dedicated 1000-word page per calculator (e.g. /tools/tax/self-employment-tax) with use cases, worked examples, and FAQ.",
-    "verifyBeforeUse": "Confirm each tool slug against the live app at https://taxease.aoneahsan.com/tools."
-  }
+    "verifyBeforeUse": "Confirm each tool slug against src/data/tools-catalog.ts in the app repo (the single source of truth for the 50-tool directory) — an entry with an externalUrl lives on ZTools and is out of scope here."
+  },
+  "correctionLog": [
+    {
+      "date": "2026-07-21",
+      "note": "Content accuracy pass: '60+ tools' corrected to the real 50-tool directory (37 in TaxEase, 13 on ZTools); every iOS claim removed (the iOS platform was deleted from the app on 2026-07-16); feature pages re-checked against the app's July 2026 state (real two-way messaging, real dashboards, real notifications, self-service deletion); 8 stale tool deep-links repointed at live routes."
+    },
+    {
+      "date": "2026-07-21",
+      "note": "Verification pass. All 50 tool links machine-checked against src/data/tools-catalog.ts routes + firebase.json redirects — 0 dead. Disclosed that 4 document generators (NDA, contract, employment, lease) and 2 loan calculators redirect to ONE shared ZTools generator each, rather than to purpose-built forms. Category-page descriptions no longer claim every tool is 'in TaxEase'. Removed a site-wide hardcoded rel=canonical that pointed all 16 pages at the homepage. MANUAL-TASKS.md + tracking/ excluded from the published site (they were public pages and in sitemap.xml)."
+    }
+  ]
 }

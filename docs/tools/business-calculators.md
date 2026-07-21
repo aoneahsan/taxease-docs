@@ -1,7 +1,7 @@
 ---
 id: business-calculators
 title: Business Calculators
-description: 10 free business calculators in TaxEase — break-even, ROI, profit margin, cash flow, valuation, startup costs, and more.
+description: The 10 free business calculators in the TaxEase directory — break-even, ROI, profit margin, cash flow, valuation, startup costs, and more. 9 run in TaxEase, 1 on ZTools.
 sidebar_label: Business Calculators
 sidebar_position: 4
 keywords: [break-even calculator, roi calculator, profit margin, cash flow, business valuation, startup cost]
@@ -9,7 +9,9 @@ keywords: [break-even calculator, roi calculator, profit margin, cash flow, busi
 
 # Business Calculators
 
-**TaxEase includes 10 business calculators** for planning and analyzing a business. All run in your browser with instant, printable results. Estimates only — not financial advice.
+**The business category lists 10 calculators** for planning and analyzing a business. All run in your browser with instant, printable results. Estimates only — not financial advice.
+
+9 of them run inside TaxEase; **ROI** now opens on [ZTools](https://ztools.zaions.com) (same developer, also free — the link below redirects there).
 
 | Calculator | What it estimates | Open |
 |---|---|---|

@@ -15,7 +15,8 @@ keywords: [dashboard, customer dashboard, admin dashboard, status]
 
 - **Requests at a glance** — active requests with their current status stage, plus a history of completed ones.
 - **Documents** — quick access to files attached to your requests.
-- **Messages & notifications** — updates about your requests so nothing gets missed.
+- **Messages** — a two-way thread per request between you and the team handling it.
+- **Notifications** — in-app alerts (with email for the important events) when a request changes status or is assigned.
 - **Quick actions** — jump straight into starting a new request or opening a tool.
 
 ## Role-aware views
@@ -27,4 +28,4 @@ The dashboard adapts to your [role](/getting-started/accounts):
 
 ## Navigation
 
-Public pages (home, tools, legal, sitemap) use a simple public layout, while the dashboard uses an authenticated workspace layout with its own navigation. UI state that matters — open tabs, filters, and the like — is reflected in the URL, so refreshing the page keeps you exactly where you were.
+Public pages (home, tools, legal, sitemap) use a simple public layout, while the dashboard uses an authenticated workspace layout with its own navigation. Some screens keep their state in the URL — the open message thread, for example — so the address bar can be shared or reloaded. This is being extended screen by screen; a few filters and wizard steps still reset on refresh.

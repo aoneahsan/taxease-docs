@@ -1,6 +1,6 @@
 # TaxEase Docs
 
-Public documentation site for **[TaxEase](https://taxease.aoneahsan.com)** — a cross-platform tax & professional-services app with 60+ free calculators, document generators, and a service-request workflow.
+Public documentation site for **[TaxEase](https://taxease.aoneahsan.com)** — a tax & professional-services app for web and Android with a 50-tool free calculator directory, document generators, and a service-request workflow.
 
 Built with [Docusaurus 3](https://docusaurus.io/). This is a **public** repository and contains **no secrets**.
 

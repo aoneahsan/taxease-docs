@@ -13,7 +13,7 @@ keywords: [taxease account, google sign in, sync, firebase auth]
 
 ## Signing in
 
-TaxEase uses Firebase Authentication. On the web you sign in with a Google account through a secure popup; on the native mobile apps the same Google sign-in happens through the device's native Google flow, landing you as the same TaxEase user either way.
+TaxEase uses Firebase Authentication, and **Google sign-in is the only option** — there is no email-and-password login. On the web you sign in through a secure Google popup; in the Android app the same sign-in happens through the device's native Google flow, landing you as the same TaxEase user either way.
 
 ## What an account unlocks
 

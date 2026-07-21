@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Tools Overview
-description: TaxEase includes 60+ free, browser-based tax, finance, and business calculators plus document generators.
+description: The TaxEase tools directory lists 50 free, browser-based tax, finance, and business calculators plus document generators — 37 hosted in TaxEase, 13 on ZTools.
 sidebar_label: Overview
 sidebar_position: 1
 keywords: [tax tools, finance calculators, free calculators, document generators]
@@ -9,17 +9,21 @@ keywords: [tax tools, finance calculators, free calculators, document generators
 
 # Tools Overview
 
-**TaxEase includes 60+ free tools across five categories**, all running in your browser with no account required. Each tool has sensible default values, instant results, and Print / Download PDF export. The numbers are estimates for informational purposes only — not tax, legal, or financial advice.
+**The TaxEase tools directory lists 50 free tools across five categories**, all running in your browser with no account required. Each tool has sensible default values, instant results, and Print / Download PDF export. The numbers are estimates for informational purposes only — not tax, legal, or financial advice.
+
+## Where each tool runs
+
+**37 of the 50 tools run inside TaxEase; the other 13 open on [ZTools](https://ztools.zaions.com)**, a sibling site by the same developer that is likewise free and needs no account. The Tools directory in the app lists all 50 together and marks the ZTools ones, and the older in-app URLs of the migrated tools redirect to their ZTools pages, so existing links keep working.
 
 ## Categories
 
-| Category | What it covers | Count |
-|---|---|---|
-| [Tax Calculators](/tools/tax-calculators) | Income, refund, self-employment, payroll, capital gains, estate, and more | 15 |
-| [Personal Finance](/tools/personal-finance) | Mortgage, loans, retirement, savings, budgeting, debt | 10 |
-| [Business Calculators](/tools/business-calculators) | Break-even, ROI, margins, cash flow, valuation, startup costs | 10 |
-| [Compliance Tools](/tools/compliance-tools) | Tax brackets, deadlines, mileage, home office, charitable deductions | 5 |
-| [Document Generators](/tools/document-generators) | NDAs, contracts, leases, employment agreements, invoices, and more | 10 |
+| Category | What it covers | In TaxEase | On ZTools | Total |
+|---|---|---|---|---|
+| [Tax Calculators](/tools/tax-calculators) | Income, refund, self-employment, payroll, capital gains, estate, and more | 14 | 1 | 15 |
+| [Personal Finance](/tools/personal-finance) | Mortgage, loans, retirement, savings, budgeting, debt | 5 | 5 | 10 |
+| [Business Calculators](/tools/business-calculators) | Break-even, ROI, margins, cash flow, valuation, startup costs | 9 | 1 | 10 |
+| [Compliance Tools](/tools/compliance-tools) | Tax brackets, deadlines, mileage, home office, charitable deductions | 5 | 0 | 5 |
+| [Document Generators](/tools/document-generators) | NDAs, contracts, leases, employment agreements, invoices, and more | 4 | 6 | 10 |
 
 ## How the calculators work
 
