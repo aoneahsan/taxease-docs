@@ -20,7 +20,7 @@ yarn serve      # preview the production build on http://localhost:5993
 
 ## Deployment
 
-GitHub Pages publishes on each `main` push through `.github/workflows/deploy-pages.yml`. The custom domain comes from `static/CNAME`. Build, typecheck and inspect the local site before pushing; then confirm the Actions run and live routes. On 2026-10-14, GitHub Pages reported HTTPS enforcement enabled, but the live homepage returned HTTP 503 while sitemap and robots returned 200. This remains an open deployment check.
+GitHub Pages publishes on each `main` push through `.github/workflows/deploy-pages.yml`. The custom domain comes from `static/CNAME`. Build, typecheck and inspect the local site before pushing; then confirm the Actions run and live routes. On 2026-10-14, GitHub Pages reported HTTPS enforcement enabled. The homepage first returned a transient 503, then three consecutive HTTPS 200 responses; sitemap and robots also returned 200. Monitor the latest Pages deployment run.
 
 ## Content
 
