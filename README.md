@@ -18,12 +18,9 @@ yarn build      # static site -> ./build
 yarn serve      # preview the production build on http://localhost:5993
 ```
 
-## Deploy (dual-hosting — USER-ONLY)
+## Deployment
 
-This site is configured for two hosts; pick one as the live DNS target for `taxease-docs.aoneahsan.com`:
-
-- **Firebase Hosting:** `yarn firebase:deploy` (project `taxease-docs` in `.firebaserc`).
-- **GitHub Pages:** push to `main` triggers `.github/workflows/deploy-pages.yml`. Enable in repo Settings → Pages → Source = "GitHub Actions". The custom domain comes from `static/CNAME`.
+GitHub Pages publishes on each `main` push through `.github/workflows/deploy-pages.yml`. The custom domain comes from `static/CNAME`. Build, typecheck and inspect the local site before pushing; then confirm the Actions run and live routes. On 2026-10-14, GitHub Pages reported HTTPS enforcement enabled, but the live homepage returned HTTP 503 while sitemap and robots returned 200. This remains an open deployment check.
 
 ## Content
 

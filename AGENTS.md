@@ -1,65 +1,9 @@
-# TaxEase Docs — AGENTS.md
+# TaxEase docs guide
 
-> AI agent instructions. Last Updated: 2026-06-24
+**Context verified:** 2026-10-14. **Next routine review:** 2026-11-13.
 
-## Overview
+This public Docusaurus 3 repository is `aoneahsan/taxease-docs` on `main`, inside `../taxease-project-root/`. The private `../taxease/` is a rebuild scaffold; `../taxease-old/` is the read-only still-live app. Document only behavior verified in actual code. Keep secrets, `.env` and service accounts out of this public repository.
 
-Public documentation site for **TaxEase** (app at https://taxease.aoneahsan.com). Docusaurus 3 + TypeScript. Dual-hosted on Firebase Hosting (project `taxease-docs`) and GitHub Pages (`.github/workflows/deploy-pages.yml` + `static/CNAME`). Custom domain `taxease-docs.aoneahsan.com`.
+`yarn install --immutable`, `yarn typecheck` and `yarn build` are the local gates. Serve `build/` and inspect desktop/mobile in a controlled browser before a `main` push. `.github/workflows/deploy-pages.yml` publishes GitHub Pages on push; `static/CNAME` pins `taxease-docs.aoneahsan.com`. No Firebase docs hosting configuration is present. Check the Actions run and live homepage, sitemap and robots after pushing.
 
-## PUBLIC repo — NO secrets
-
-`github.com/aoneahsan/taxease-docs` is **PUBLIC**. NEVER commit `.env`, keys, or service accounts. Docs content only. `.env*` stays git-ignored.
-
-## Gitignore Hygiene (IRON-SOLID)
-`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo (`github.com/aoneahsan/taxease-docs`, remote `o`) -> NEVER commit secrets (`.env*` stays git-ignored); gitignore hygiene only.
-Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
-Gitignore Last Verified: 2026-06-24
-
-## Conventions
-
-- `routeBasePath: '/'`; `intro.md` has `slug: /` (homepage). Navigation in `sidebars.ts`.
-- Brand blue `#2563eb` in `src/css/custom.css`. SEO: `static/robots.txt` AI-bot allowlist, `static/llms.txt`, JSON-LD in `docusaurus.config.ts`, per-page meta/OG.
-- Document the REAL app only — honest framing, no fabricated features or stats.
-
-## Commands
-
-```bash
-yarn install
-yarn build          # static build -> ./build
-```
-
-Do NOT auto-run dev servers. Deploy is USER-ONLY (Firebase or GitHub Pages Action).
-
-## SEO enrichment tracker
-
-`docs/tracking/taxease-docs-content-tracker.json`. Follow `~/.claude/rules/seo-aeo-ranking.md` for long-tail batches.
-
-## Author
-
-Ahsan Mahmood — aoneahsan@gmail.com — https://aoneahsan.com
-
-
-## Sub-agents & Skills — Main-Context-First (IRON-SOLID)
-Default/built-in sub-agents (`general-purpose`, `Explore`, `Plan`, `claude`, `fork`, …) do NOT have
-access to `/skills`, so delegating to them silently SKIPS the skills RULE #0 requires. Do all
-skill-relevant work in the **MAIN context**; use a sub-agent ONLY when a **custom** agent exists in
-`.claude/agents/` for that job; a default `Explore`/`Plan` agent is allowed ONLY for read-only,
-no-skill search/exploration. When a relevant skill is missing, **install/enable it** rather than
-proceeding skill-less. (Owner directive 2026-07-11; full text in `~/.claude/CLAUDE.md`.)
-
-<!-- RULE:main-context-model-workflow v2026-07-16 -->
-## Main-Context + Skills + Model Workflow (IRON-SOLID — CRITICAL)
-1. **NO default/built-in sub-agents** (`general-purpose`, `Explore`, `Plan`, `claude`, `fork`, …) for ANY work in
-   this project — they cannot invoke /skills, which RULE #0 makes mandatory. Do ALL work (planning, implementation,
-   review, exploration) in the MAIN context. A sub-agent is allowed ONLY when a CUSTOM agent exists in
-   `.claude/agents/` for that exact job.
-2. **Skills always:** before any task, scan the available-skills list and invoke EVERY relevant skill; if a needed
-   skill is missing, download/enable/install it (or use the nearest installed equivalent and say so) — never
-   proceed skill-less.
-3. **Model workflow:** PLAN and REVIEW on **Fable 5**; EXECUTE the approved plan on **Opus 4.8**. Plans in
-   `~/.claude/plans/`; multi-phase features keep a resumable tracker (`docs/features/<slug>/00-tracker.json`),
-   resumed rather than re-planned from zero.
-
-Global records (rules, policy, audit reports) live in the `ahsan-notebook` repo at
-`static/assets/claude-code/`; the `~/.claude/…` paths are symlinks into it. Full text: `~/.claude/CLAUDE.md`.
-(Owner directives 2026-07-11 / 2026-07-14; fleet-rolled 2026-07-16.)
+On 2026-10-14 the Pages API showed the custom domain with HTTPS enforced. The live homepage returned HTTP 503 while sitemap and robots returned 200; this needs investigation before claiming healthy deployment. [README.md](README.md) has commands; the workspace fleet tracker holds exact verification. Update this guide pair together.
